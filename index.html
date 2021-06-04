@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Mi tienda</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Mi Tienda</span>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row p-5">
+            <div class="col-md-3 mx-auto">
+                <form class="form" action="enviado.html" id="form">
+                    <h3>Envia un mensaje!</h3>
+                    <input id="input" type="text" />
+                    <a id="enviar" class="btn btn-primary">Enviar</a>
+                    <p id="mensaje"></p>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="productos" class="row p-5">
+        </div>
+
+        <div class="row p-5">
+            <a class="btn btn-primary" onclick="verCarrito()">Ver carrito por consola</a>
+        </div>
+
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script defer src="js/script.js"></script>
+</body>
+</html>
